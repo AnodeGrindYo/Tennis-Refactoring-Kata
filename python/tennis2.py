@@ -2,18 +2,24 @@
 
 class TennisGame2:
     def __init__(self, player1Name, player2Name):
+        # TODO: Duplication de code - Envisager de fusionner les informations des joueurs et leurs points dans une structure unique.
         self.player1Name = player1Name
         self.player2Name = player2Name
         self.p1points = 0
         self.p2points = 0
 
     def won_point(self, playerName):
+        # TODO: Duplication de code - Envisager une approche plus générique pour incrémenter les points afin de réduire la duplication.
         if playerName == "player1":
             self.P1Score()
         else:
             self.P2Score()
 
     def score(self):
+        # TODO: Méthode trop longue - Découper cette méthode en sous-méthodes plus petites.
+        # TODO: Utilisation de nombres magiques - Remplacer par des constantes nommées pour améliorer la lisibilité.
+        # TODO: Conditions complexes - Simplifier ou réorganiser les conditions pour améliorer la clarté.
+        # TODO: Duplication de code - Centraliser la logique de formatage des scores pour éviter la répétition.
         result = ""
         if (self.p1points == self.p2points and self.p1points < 3):
             if (self.p1points==0):
@@ -84,6 +90,7 @@ class TennisGame2:
         return result
 
     def SetP1Score(self, number):
+        # TODO: Duplication de code et Noms de méthodes non conventionnels - Unifier SetP1Score et SetP2Score en une seule méthode avec un paramètre pour le joueur.
         for i in range(number):
             self.P1Score()
 
@@ -92,8 +99,8 @@ class TennisGame2:
             self.P2Score()
 
     def P1Score(self):
+        # TODO: Manque d'encapsulation - Les modifications directes des attributs de score devraient être gérées par une méthode dédiée pour améliorer l'encapsulation.
         self.p1points +=1
-
 
     def P2Score(self):
         self.p2points +=1
