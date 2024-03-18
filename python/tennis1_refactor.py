@@ -1,3 +1,30 @@
+"""
+Système de Scoring au Tennis :
+
+Le système de scoring au tennis est unique et se compose de points, de jeux et de sets. Cette implémentation se concentre sur le scoring au sein d'un seul jeu.
+
+Points :
+- Les points au tennis sont attribués par incréments de "Zéro" (0), "Quinze" (1), "Trente" (2), "Quarante" (3).
+- Lorsque les deux joueurs ont gagné moins de trois points, le score est décrit par "Quinze" pour 1 point, "Trente" pour 2, et "Quarante" pour 3. "Zéro" est utilisé pour indiquer zéro point.
+- Lorsque les deux joueurs ont le même nombre de points, le score est décrit comme "Égalité" (par exemple, "Quinze-Égalité" pour un score de 1-1).
+- Une fois que les deux joueurs ont gagné au moins trois points, si le score est égal, on parle de "Deuce" (Égalité).
+
+Avantage :
+- Après "Deuce", le point suivant remporté par un joueur est appelé "Avantage" pour ce joueur.
+- Si le même joueur gagne le point suivant, il remporte le jeu.
+- Si le joueur adverse gagne le point suivant, le score retourne à "Deuce".
+
+Gagner un Jeu :
+- Un joueur remporte un jeu s'il a gagné au moins quatre points au total et au moins deux points de plus que son adversaire.
+- Le jeu continue jusqu'à ce que l'un des joueurs remplisse ces conditions.
+
+Cette implémentation ne couvre pas les règles pour gagner un set ou un match, qui impliquent de gagner un certain nombre de jeux dans un set, et un certain nombre de sets dans un match, respectivement.
+
+"""
+
+
+
+
 class TennisTranslation:
     SCORE_NAMES = {
         'en': {

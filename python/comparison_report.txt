@@ -1,0 +1,27 @@
+Points: 1-1, Original: Love-Thirty, Refactored: Fifteen-All
+Points: 2-2, Original: Win for player2, Refactored: Thirty-All
+Points: 3-3, Original: Win for player2, Refactored: Deuce
+Points: 4-4, Original: Win for player2, Refactored: Deuce
+Points: 1-0, Original: Love-Fifteen, Refactored: Fifteen-Love
+Points: 2-0, Original: Love-Thirty, Refactored: Thirty-Love
+Points: 2-1, Original: Love-Forty, Refactored: Thirty-Fifteen
+Points: 1-2, Original: Love-Forty, Refactored: Fifteen-Thirty
+Points: 3-0, Original: Love-Forty, Refactored: Forty-Love
+Points: 4-0, Original: Win for player2, Refactored: Win for Player 1
+Points: 0-4, Original: Win for player2, Refactored: Win for Player 2
+Points: 3-2, Original: Win for player2, Refactored: Forty-Thirty
+Points: 2-3, Original: Win for player2, Refactored: Thirty-Forty
+Points: 4-1, Original: Win for player2, Refactored: Win for Player 1
+Points: 1-4, Original: Win for player2, Refactored: Win for Player 2
+Points: 4-2, Original: Win for player2, Refactored: Win for Player 1
+Points: 2-4, Original: Win for player2, Refactored: Win for Player 2
+Points: 4-3, Original: Win for player2, Refactored: Advantage Player 1
+Points: 3-4, Original: Win for player2, Refactored: Advantage Player 2
+Points: 5-4, Original: Win for player2, Refactored: Advantage Player 1
+Points: 4-5, Original: Win for player2, Refactored: Advantage Player 2
+Points: 15-14, Original: Win for player2, Refactored: Advantage Player 1
+Points: 14-15, Original: Win for player2, Refactored: Advantage Player 2
+Points: 6-4, Original: Win for player2, Refactored: Win for Player 1
+Points: 4-6, Original: Win for player2, Refactored: Win for Player 2
+Points: 16-14, Original: Win for player2, Refactored: Win for Player 1
+Points: 14-16, Original: Win for player2, Refactored: Win for Player 2
