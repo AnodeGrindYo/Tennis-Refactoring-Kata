@@ -8,6 +8,7 @@ from tennis3 import TennisGame3
 from tennis4 import TennisGame4
 from tennis5 import TennisGame5
 from tennis6 import TennisGame6
+from tennis1_refactor import TennisGame as TennisGame1Refactor
 
 
 test_cases = [
@@ -99,6 +100,12 @@ class TestTennis(unittest.TestCase):
         for testcase in test_cases:
             (p1Points, p2Points, score, p1Name, p2Name) = testcase
             game = play_game(TennisGame6, p1Points, p2Points, p1Name, p2Name)
+            self.assertEqual(score, game.score())
+
+    def test_Score_Game1_Refactor(self):
+        for testcase in test_cases:
+            (p1Points, p2Points, score, p1Name, p2Name) = testcase
+            game = play_game(TennisGame1Refactor, p1Points, p2Points, p1Name, p2Name)
             self.assertEqual(score, game.score())
 
 
